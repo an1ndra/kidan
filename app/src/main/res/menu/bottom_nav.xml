@@ -2,11 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/tempFragment"
+        android:id="@+id/learnFragment"
         android:icon="@drawable/ic_local_library"
         android:title="@string/learn" />
+
+    <item
+        android:id="@+id/quizFragment"
+        android:icon="@drawable/ic_quiz"
+        android:title="@string/quiz" />
     <item
         android:id="@+id/settingFragment"
         android:icon="@drawable/ic_settings"
         android:title="@string/setting" />
+
 </menu>
