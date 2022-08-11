@@ -8,4 +8,6 @@
     <string name="learn">Learn</string>
     <string name="setting">Setting</string>
     <string name="temp_fragment">Temp Fragment</string>
+    <string name="quiz">Quiz</string>
+    <string name="settings">Settings</string>
 </resources>
