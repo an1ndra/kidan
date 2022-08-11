@@ -17,11 +17,15 @@ class Interaction : AppCompatActivity() {
         // Navigation bar
         // Reference: https://m3.material.io/components/navigation-bar/implementation
         // TODO: add more button to navigation bar
-        loadFragment(TempFragment())
+        loadFragment(LearnFragment())
         binding.bottomNavigationView.setOnItemSelectedListener{
             when(it.itemId){
-                R.id.tempFragment -> {
-                    loadFragment(TempFragment())
+                R.id.learnFragment-> {
+                    loadFragment(LearnFragment())
+                    true
+                }
+                R.id.quizFragment-> {
+                    loadFragment(QuizFragment())
                     true
                 }
                 R.id.settingFragment -> {
