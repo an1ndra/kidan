@@ -4,7 +4,12 @@
     <string name="bengali">বাংলা</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="choose_your_language_wich_one_you_want_to_learn">Choose Your Language Wich One You Want To Learn</string>
+    <string name="choose_your_language_wich_one_you_want_to_learn">Choose Your Language Which One You Want To Learn</string>
     <string name="about_this_app">About this app</string>
     <string name="report_bug">Report Bug</string>
+    <string name="learn">Learn</string>
+    <string name="setting">Setting</string>
+    <string name="temp_fragment">Temp Fragment</string>
+    <string name="quiz">Quiz</string>
+    <string name="settings">Settings</string>
 </resources>

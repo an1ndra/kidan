@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/learnFragment">
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.codeavenge.kidan.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/learnFragment"
+        android:name="com.codeavenge.kidan.LearnFragment"
+        android:label="fragment_learn"
+        tools:layout="@layout/fragment_learn" />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.codeavenge.kidan.QuizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" />
+</navigation>
