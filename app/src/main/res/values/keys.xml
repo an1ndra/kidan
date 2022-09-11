@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_mode_key">theme_mode</string>
+    <string name="bug_report_key">bug_report</string>
+    <string name="contact_me_key">contact_me</string>
+    <string name="translate_app_key">translate_app</string>
+    <string name="about_this_app_key">about_this_app</string>
+</resources>
