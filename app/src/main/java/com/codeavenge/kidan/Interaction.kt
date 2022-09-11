@@ -18,31 +18,29 @@ class Interaction : AppCompatActivity() {
         // Reference: https://m3.material.io/components/navigation-bar/implementation
         // TODO: add more button to navigation bar
         loadFragment(LearnFragment())
-        binding.bottomNavigationView.setOnItemSelectedListener{
-            when(it.itemId){
-                R.id.learnFragment-> {
+        binding.bottomNavigationView.setOnItemSelectedListener {
+            when (it.itemId) {
+                R.id.learnFragment -> {
                     loadFragment(LearnFragment())
                     true
                 }
-                R.id.quizFragment-> {
+                R.id.quizFragment -> {
                     loadFragment(QuizFragment())
                     true
                 }
                 R.id.settingFragment -> {
-                    loadFragment(SettingFragment())
+                    loadFragment(SettingsFragment())
                     true
                 }
                 else -> false
             }
         }
-
     }
 
-    private  fun loadFragment(fragment: Fragment){
+    private fun loadFragment(fragment: Fragment) {
         val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.frame_layout,fragment)
+        transaction.replace(R.id.frame_layout, fragment)
         transaction.addToBackStack(null)
         transaction.commit()
     }
-
 }
