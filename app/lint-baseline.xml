@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.1" type="baseline" client="gradle" dependencies="false" name="AGP (7.2.1)" variant="fatal" version="7.2.1">
+
+    <issue
+        id="ExtraTranslation"
+        message="&quot;choose_your_language_wich_one_you_want_to_learn&quot; is translated here but not found in default locale"
+        errorLine1="    &lt;string name=&quot;choose_your_language_wich_one_you_want_to_learn&quot;>Choose Your Language Which One You Want To Learn&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-night/strings.xml"
+            line="5"
+            column="13"/>
+    </issue>
+
+</issues>
