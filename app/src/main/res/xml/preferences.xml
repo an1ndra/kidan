@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Appearance">
+
+        <ListPreference
+            android:defaultValue="System"
+            android:entries="@array/themeMode"
+            android:entryValues="@array/themeModeValues"
+            android:icon="@drawable/ic_theme"
+            app:key="@string/theme_mode_key"
+            app:title="Theme"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Help">
+
+        <ListPreference
+            android:icon="@drawable/ic_bug"
+            app:key="@string/bug_report_key"
+            app:title="Report Bug" />
+
+        <ListPreference
+            android:icon="@drawable/ic_contact"
+            app:key="@string/contact_me_key"
+            app:title="Contact Me" />
+
+        <ListPreference
+            android:icon="@drawable/ic_translate"
+            app:key="@string/translate_app_key"
+            app:title="Translate This App" />
+
+        <ListPreference
+            android:icon="@drawable/ic_about"
+            app:key="@string/about_this_app"
+            app:title="About This App" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
