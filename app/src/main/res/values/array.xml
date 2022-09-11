@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themeMode">
+        <item>systemTheme</item>
+        <item>lightTheme</item>
+        <item>darkTheme</item>
+        <item>blackTheme</item>
+    </string-array>
+
+    <string-array name="themeModeValues">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+        <item>black</item>
+    </string-array>
+</resources>
